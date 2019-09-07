@@ -1,0 +1,9 @@
+package com.ada.springboot;
+
+public class SpringBootSelfApplication {
+
+    public static void main(String[] args) {
+
+    }
+
+}

@@ -1,0 +1,5 @@
+package com.ada.springboot.beans;
+
+public class Department {
+
+}

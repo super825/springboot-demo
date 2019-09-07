@@ -1,0 +1,12 @@
+package com.ada.springboot.handler;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class EmployeeHandler {
+
+    public Object getEmployee() {
+        
+        return null;
+    }
+}

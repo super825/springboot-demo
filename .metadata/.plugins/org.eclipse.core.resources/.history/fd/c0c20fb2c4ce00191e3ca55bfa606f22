@@ -1,0 +1,5 @@
+package com.ada.springboot.service;
+
+public class EmployeeServiceImpl extends EmployeeService {
+
+}

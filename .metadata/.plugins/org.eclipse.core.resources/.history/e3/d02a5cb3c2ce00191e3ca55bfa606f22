@@ -1,0 +1,21 @@
+package com.ada.springboot.handler;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ada.springboot.beans.Department;
+import com.ada.springboot.beans.Employee;
+
+@Controller
+public class EmployeeHandler {
+
+    @RequestMapping("/getEmp")
+    public Object getEmployee() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("emp", new Employee(1, "jack", "jack@ada.com", new Department(1001, "软件部")));
+        return map;
+    }
+}

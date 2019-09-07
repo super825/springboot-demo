@@ -1,0 +1,6 @@
+package com.ada.springboot.beans;
+
+public class Department {
+    private Integer id;
+    private Integer name;
+}
